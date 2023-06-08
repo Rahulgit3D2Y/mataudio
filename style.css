@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    min-width: 300px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 700px;
+  }
+  .hero_text{
+    margin: auto;
+    padding: 20px;
+  }
+  .hero_text>p
+  {
+    color: gray;
+  }
+  .hero_text>h1
+  {
+    color: ghostwhite;
+  }
+   
+ 
+@media (max-width: 800px) {
+    main
+    {
+        padding-top:  80px;
+    }
+    .hero_text {
+    text-align: center;
+   }
+}
+ 
