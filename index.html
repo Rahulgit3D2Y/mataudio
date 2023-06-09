@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>mataudio</title>
+  <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body  >
 
-  <section class="nav">
+  <header>
+   <section class="nav">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top px-2 py-4" style="background-color: black;">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +27,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Product1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link  ">Product2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  ">Product3</a>
             </li>
           </ul>
         </div>
@@ -35,26 +42,28 @@
         </form>
       </div>
     </nav>
-  </section>
+  </section> 
+  </header>
+  
 
   <main>
 
     <section class="hero py-6 d-flex justify-content-center align-items-center">
       <div class="row container m-0">
         <div class="col-md-6 order-md-last col-12 flex-column-reverse">
-          <img src="https://source.unsplash.com/500x500/?speaker" class="img-fluid" alt="">
+          <img src="https://source.unsplash.com/500x400/?speaker" class="img-fluid" alt="">
         </div>
         <div class="col-md-6 order-md-first col-12 hero_text">
           <p>Lorem ipsum dolor sit.</p>
           <h1>Lorem, ipsum d</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corporis sunt nisi repudiandae ex nostrum eveniet nulla ipsum beatae odio.</p>
-          <div class="btn bg-warning text-light">See more</div>
+          <div class="btn bg-warning text-light fw-bold">SEE MORE</div>
         </div>
       </div>
     </section>
 
 
-    <section class="p-3">
+    <section class="py-5">
       <div class="row m-0 justify-content-center">
         <div class="col-md-3 product_area" >
           <div class="text-center overlap_image">
@@ -92,48 +101,110 @@
     </section>
     
     
-    <section>
-      <main class="maine">
+    <section class="py-4  ">
+      <div class="container maine">
         <div class="main-top">
           <div class="main-top-left">
-            <h1>Grow Together</h1>
+            <h1>SMART Wearables</h1>
             <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
               Think of the insightful conversations you miss out on with a feedback form.</p>
+            <button class="btn btn-dark">SEE PRODUCT</button>
           </div>
           <div class="main-top-right">
-            <img src="images/illustration-grow-together.svg" alt="grow">
-          </div>
+            <!-- <img src="https://source.unsplash.com/300x300/?mic" alt=" "> -->
+           </div>
         </div>
           <div class="main-mid">
             <div class="main-mid-left">
-              <h2>Flowing Conversations</h2>
-              <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-                have just-in-time loading for a more natural flow.
+              <h2>CyberSecurity</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo soluta voluptatem quisquam sit natus in, perspiciatis nobis vitae quaerat tenetur sequi, quis velit, fugiat incidunt error voluptate nisi eius esse!
               </p>
+              <button class="btn btn-dark">SEE PRODUCT</button>
             </div>
             <div class="main-mid-right">
-              <img src="images/illustration-flowing-conversation.svg" alt="flow">
+              <!-- <img src="https://source.unsplash.com/300x300/?mic" alt=" "> -->
             </div>
           </div>
           <div class="main-bot">
             <div class="main-bot-left">
-              <h2>Your Users</h2>
-              <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
-                This means, once signed in to your app, your users can start chatting immediately.</p>
+              <h2>Voice</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem nam quam excepturi. Odio neque sunt tenetur labore? Quos nisi nemo reprehenderit laborum ratione pariatur assumenda iusto? Tempora, omnis repudiandae.</p>
+              <button class="btn btn-dark">SEE PRODUCT</button>
             </div>
             <div class="main-bot-right">
-              <img src="images/illustration-your-users.svg" alt="users">
+              <!-- <img src="https://source.unsplash.com/300x300/?mic" alt=" "> -->
             </div>
           </div>
-        <div class="main-button">
-          <h2>Ready To Build Your Community?</h2>
-          <button>Get Started For Free</button>
+        
         </div>
-      </main>
+
+      
+
+    </section>
+    
+    <section class="py-5 userexp">
+      <div class="row justify-content-center m-0 p-2" style="background-color: rgb(255, 194, 79);">
+        <div class="col-md-10 text-center my-3">
+          <h2>User Experience</h2>
+        </div>
+        <div class="col-md-5 justify-content-center m-auto p-3">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempora perspiciatis facere consectetur voluptatum sunt dolorum quos harum assumenda nihil, optio eum quo dignissimos in dolor architecto. Est, dicta ipsa.</p>
+          <button class="btn btn-primary">See More</button>
+        </div>
+        <div class="col-md-5">
+          <img src="https://source.unsplash.com/400x300/?user experience" alt="" class="img-fluid">
+        </div>
+      </div>
     </section>
     
     
   </main>
+
+
+  <footer class="py-4 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7"><h1>mataudio</h1></div>
+        <div class="col-md-5">
+          <ul class="list-unstyled d-flex footer-links">
+            <li class="m-3"><a href="#">Home</a></li>
+            <li class="m-3"><a href="#">Products</a></li>
+            <li class="m-3"><a href="#">Services</a></li>
+            <li class="m-3"><a href="#">About Us</a></li>
+           </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 py-5">
+          <h3>Contact Us</h3>
+          <p>123 Street, City, Country</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: +1 123-456-7890</p>
+        </div>
+        <div class="col-md-3 icons">
+          <h3>Follow Us</h3>
+          <ul class="list-inline social-icons">
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-facebook-f text-light"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-twitter text-light"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-instagram text-light"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-linkedin text-light"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="mb-0">&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
