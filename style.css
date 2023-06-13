@@ -16,7 +16,7 @@ img
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(218, 124, 124);
     height: 700px;
   }
   .hero_text{
@@ -25,7 +25,7 @@ img
   }
   .hero_text>p
   {
-    color: gray;
+    color: rgb(255, 255, 255);
   }
   .hero_text>h1
   {
@@ -51,7 +51,7 @@ img
   .overlap_image
   {
     position: relative;
-    top: 60px;
+    top: 80px;
     z-index: 1;
   }
   .overlap_text
@@ -157,6 +157,8 @@ img
     flex-direction: column;
     text-align: center;
    }
- 
+   .hero{
+    height: 800px;
+   }
 }
  
